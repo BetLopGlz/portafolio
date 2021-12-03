@@ -106,7 +106,7 @@ const Index = ()=>(
                     <div className="card-body">
                       <h3>{name}</h3>
                       <p>{description}</p>
-                      <a href={url}>Visita el Sitio!</a>
+                      <a  target="_blank" href={url}>Visita el Sitio!</a>
                     </div>
                   </div>
                 </div>

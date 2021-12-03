@@ -42,13 +42,28 @@ const Layout = ({ children, title, footer = true, dark = false }) => {
       </main>
 
       {footer && (
-        <footer className="bg-dark text-light text-center">
-          <div className="container p-4">
-            <h1>&copy; Ryan Ray Portfolio</h1>
-            <p>2000 - {new Date().getFullYear()}</p>
-            <p>All rights Reserved.</p>
-          </div>
-        </footer>
+       <footer className="bg-dark text-light text-center">
+       <div class="row">
+         <div class="col-6 col-md">
+          
+             <a target="_blank"  href="https://www.facebook.com/bettyluboop" class="btn btn-block btn-social btn-facebook">
+               <span class="bi bi-facebook"></span>
+             </a> 
+             <a  target="_blank" href="https://www.linkedin.com/in/beatriz-lpz-glz/" class="btn btn-block btn-social btn-linkedin">
+               <span class="bi bi-linkedin"></span>
+             </a> 
+             <a  target="_blank" href="https://twitter.com/Bettylu_Boop" class="btn btn-block btn-social btn-twitter">
+               <span class=" bi bi-twitter"></span>
+             </a> 
+             
+         
+           <small class="d-block mb-3 text-muted">© 2021 Todos los derechos reservados. Esta es una página de aterrizaje ficticia para fines académicos.</small>
+         </div>
+        
+         
+        
+       </div>
+     </footer>
       )}
     </div>
   );
