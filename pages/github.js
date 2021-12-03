@@ -16,7 +16,7 @@ const GitHub = ({user, statusCode})=>{
               <a
                 href={user.html_url}
                 target="_blank"
-                className="btn btn-outline-secondary"
+                className="btn btn-light"
               >
                 Go to Github
               </a>

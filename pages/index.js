@@ -1,6 +1,6 @@
 import LayOut from "../components/Layout";
-import Link from "next/link";
 import { skills, experiences, projects} from "../profile";
+
 
 const Index = ()=>(
     <LayOut>
@@ -16,14 +16,11 @@ const Index = ()=>(
               <h1>Beatriz López González</h1>
               <h3>Full Stack Developer</h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Molestiae atque ullam perferendis harum, nisi porro voluptate,
-                iste consequuntur enim reprehenderit architecto consectetur cum?
-                Totam ad molestias natus illum illo officia.
+                Programador con 4 años de experiencia en el campo laboral. He colaborado como consultor de  en empresas de banca como BBVA y HSBC , me desempeñe como consultor fullstack en Grupo Avante Textil.
+                Me gusta mantenerme al día en  tecnologías emergentes recientemente he tomado cursos de Microsoft Azure y AWS.
+                Adicional cuento con una certificación como Scrum Master. 
               </p>
-              <Link href="/hireme">
-                <a className="btn btn-primary">Hire Me</a>
-              </Link>
+              
             </div>
           </div>
         </div>
@@ -76,9 +73,7 @@ const Index = ()=>(
                 </li>
               ))}
             </ul>
-            <Link href="/hireme">
-              <a className="btn btn-light">Know More</a>
-            </Link>
+            
           </div>
         </div>
       </div>
@@ -103,10 +98,19 @@ const Index = ()=>(
                         className="card-img-top"
                       />
                     </div>
+              
                     <div className="card-body">
                       <h3>{name}</h3>
                       <p>{description}</p>
-                      <a  target="_blank" href={url}>Visita el Sitio!</a>
+                      <a
+                        href={url}
+                        target="_blank"
+                        className="btn btn-light"
+                      >
+                      Ir al Proyecto  
+                      <span class="bi bi-arrow-right-square"></span>
+                      </a>
+                      
                     </div>
                   </div>
                 </div>

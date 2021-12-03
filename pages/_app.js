@@ -1,4 +1,4 @@
-import 'bootswatch/dist/sketchy/bootstrap.min.css';
+import 'bootswatch/dist/superhero/bootstrap.min.css';
 import  '../global.css';
 import 'bootstrap-icons/font/bootstrap-icons';
 function MyApp({ Component, pageProps }) {
