@@ -18,7 +18,7 @@ const GitHub = ({user, statusCode})=>{
                 target="_blank"
                 className="btn btn-light"
               >
-                Go to Github
+                Ir a Github
               </a>
             </div>
           </div>
