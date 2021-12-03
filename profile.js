@@ -74,24 +74,29 @@ export const skills = [
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
       image: "portfolio1.jpg",
+      url:"https://betlopglz.github.io/"
     },
     {
       name: "Agenda Page",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
       image: "portfolio2.jpg",
+      url:"https://betlopglz.github.io/agenda/"
     },
     {
       name: "DashBoard",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
       image: "portfolio3.jpg",
+      url:"https://irvingc48.github.io/dashboard/",
     },
     {
       name: "React Restaurant Web",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
       image: "portfolio4.jpg",
+      url:"https://pensive-fermi-555d0d.netlify.app/",
+
     },
     
   ];

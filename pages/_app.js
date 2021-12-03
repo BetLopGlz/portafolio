@@ -1,4 +1,4 @@
-import 'bootswatch/dist/minty/bootstrap.min.css';
+import 'bootswatch/dist/sketchy/bootstrap.min.css';
 import  '../global.css';
 
 function MyApp({ Component, pageProps }) {

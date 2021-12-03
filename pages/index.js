@@ -10,7 +10,7 @@ const Index = ()=>(
         <div className="card card-body bg-secondary text-light animate__animated animate__fadeIn">
           <div className="row">
             <div className="col-md-4">
-              <img src="/Beatriz.jpg" alt="" width="300" height="300" className="img-fluid" />
+              <img src="/Beatriz.jpg" alt="" width="200" height="200" className="img-fluid" />
             </div>
             <div className="col-md-8">
               <h1>Beatriz López González</h1>
@@ -93,7 +93,7 @@ const Index = ()=>(
               <div className="col-md-12 my-2">
                 <h1 className="text-center text-light">Portafolio</h1>
               </div>
-              {projects.map(({ name, description, image }, index) => (
+              {projects.map(({ name, description, image,url }, index) => (
                 <div className="col-md-4 p-2" key={index}>
                   <div className="card h-100">
                     <div className="overflow">
@@ -106,19 +106,13 @@ const Index = ()=>(
                     <div className="card-body">
                       <h3>{name}</h3>
                       <p>{description}</p>
-                      <a href="#!">Know More</a>
+                      <a href={url}>Visita el Sitio!</a>
                     </div>
                   </div>
                 </div>
               ))}
 
-              <div className="col-md-12 mt-4">
-                <div className="text-center">
-                  <Link href="/portfolio">
-                    <a className="btn btn-outline-light">More Projects</a>
-                  </Link>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
