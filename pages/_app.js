@@ -1,4 +1,4 @@
-import 'bootswatch/dist/quartz/bootstrap.min.css';
+import 'bootswatch/dist/minty/bootstrap.min.css';
 
 function MyApp({ Component, pageProps }) {
     return <Component {...pageProps} />
