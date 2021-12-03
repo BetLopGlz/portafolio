@@ -67,5 +67,35 @@ export const skills = [
       to:2020
     },
   ];
+
+  export const projects = [
+    {
+      name: "Landing Page",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
+      image: "portfolio1.jpg",
+    },
+    {
+      name: "Agenda Page",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
+      image: "portfolio2.jpg",
+    },
+    {
+      name: "DashBoard",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
+      image: "portfolio3.jpg",
+    },
+    {
+      name: "React Restaurant Web",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
+      image: "portfolio4.jpg",
+    },
+    
+  ];
+  
+  
   
   

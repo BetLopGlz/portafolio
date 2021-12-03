@@ -1,6 +1,6 @@
 import LayOut from "../components/Layout";
 import Link from "next/link";
-import { skills, experiences} from "../profile";
+import { skills, experiences, projects} from "../profile";
 
 const Index = ()=>(
     <LayOut>
@@ -84,9 +84,49 @@ const Index = ()=>(
       </div>
     </section>
 
-    
+    {/* Porfolio */}
+    <section>
+      <div className="row">
+        <div className="col-md-12">
+          <div className="card card-body bg-dark">
+            <div className="row">
+              <div className="col-md-12 my-2">
+                <h1 className="text-center text-light">Portafolio</h1>
+              </div>
+              {projects.map(({ name, description, image }, index) => (
+                <div className="col-md-4 p-2" key={index}>
+                  <div className="card h-100">
+                    <div className="overflow">
+                      <img
+                        src={`/${image}`}
+                        alt=""
+                        className="card-img-top"
+                      />
+                    </div>
+                    <div className="card-body">
+                      <h3>{name}</h3>
+                      <p>{description}</p>
+                      <a href="#!">Know More</a>
+                    </div>
+                  </div>
+                </div>
+              ))}
 
-    </LayOut>
+              <div className="col-md-12 mt-4">
+                <div className="text-center">
+                  <Link href="/portfolio">
+                    <a className="btn btn-outline-light">More Projects</a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </LayOut>
+
 );
 
 export default Index;
