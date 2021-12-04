@@ -51,14 +51,14 @@ export const skills = [
       description:
         "Colaboré como consultor en BBVA , elaborando webservices con spring como parte del proyecto paperless 'Consulta de estado de cuenta' para la app de banca movil, realicé el flujo de testing para dicho proyecto. Colaboración en mantenimiento e implementación de infraestructura para diferentes ambientes colaborativos. Soporte técnico a usuarios.",
       from: 2016,
-      
+      to: 2016,
     },
     {
       title: "Java Developer",
       description:
         "Colaboración como consultor en HSBC. Dentro de las funciones realizadas se encuentran el análisis de requerimientos, y desarrollo de webservices para el area de RBWM. ",
       from: 2017,
-      
+      to: 2017,
     },
     {
       title: "Fullstack Developer",
