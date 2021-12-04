@@ -1,4 +1,5 @@
-import Document, { Html, Head, Main, NextScript } from "next/document";
+import Document, { Html, Main,Head, NextScript } from "next/document";
+
 
 class MyDocument extends Document {
   render() {
@@ -6,7 +7,7 @@ class MyDocument extends Document {
       <Html>
         <Head>
         <meta name="description" content="Beatriz López Portafolio Website" />
-            <title>Portafolio</title>
+           
          {/* Nprogress css */}
          <link
             rel="stylesheet"
