@@ -46,13 +46,13 @@ const Layout = ({ children, title, footer = true, dark = false }) => {
        <div className="row">
          <div className="col-6 col-md">
           
-             <a target="_blank"  href="https://www.facebook.com/bettyluboop" classnames="btn btn-block btn-social btn-facebook">
+             <a   href="https://www.facebook.com/bettyluboop" className="btn btn-block btn-social btn-facebook">
                <span className="bi bi-facebook"></span>
              </a> 
-             <a  target="_blank" href="https://www.linkedin.com/in/beatriz-lpz-glz/" className="btn btn-block btn-social btn-linkedin">
+             <a   href="https://www.linkedin.com/in/beatriz-lpz-glz/" className="btn btn-block btn-social btn-linkedin">
                <span className="bi bi-linkedin"></span>
              </a> 
-             <a  target="_blank" href="https://twitter.com/Bettylu_Boop" className="btn btn-block btn-social btn-twitter">
+             <a   href="https://twitter.com/Bettylu_Boop" className="btn btn-block btn-social btn-twitter">
                <span className=" bi bi-twitter"></span>
              </a> 
              

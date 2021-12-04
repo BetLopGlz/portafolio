@@ -1,6 +1,6 @@
 import LayOut from "../components/Layout";
 import { skills, experiences, projects} from "../profile";
-
+import Image from 'next/image';
 
 const Index = ()=>(
     <LayOut>
@@ -9,10 +9,10 @@ const Index = ()=>(
       <div className="col-md-12">
         <div className="card card-body bg-secondary text-light animate__animated animate__fadeIn">
           <div className="row">
-            <div className="col-md-4">
-              <img src="/Beatriz.jpg" alt="" width="200" height="200" className="img-fluid" />
+            <div className="col-md-3">
+              <Image src="/Beatriz.jpg" alt=""  width={200}  height={200} className="img-fluid" />
             </div>
-            <div className="col-md-8">
+            <div className="col-md-9">
               <h1>Beatriz López González</h1>
               <h3>Full Stack Developer</h3>
               <p>
@@ -92,9 +92,11 @@ const Index = ()=>(
                 <div className="col-md-4 p-2" key={index}>
                   <div className="card h-100">
                     <div className="overflow">
-                      <img
+                      <Image
                         src={`/${image}`}
                         alt=""
+                        width={350}
+                        height={250}
                         className="card-img-top"
                       />
                     </div>
@@ -104,7 +106,7 @@ const Index = ()=>(
                       <p>{description}</p>
                       <a
                         href={url}
-                        target="_blank"
+                        
                         className="btn btn-light"
                       >
                       Ir al Proyecto  
