@@ -1,6 +1,6 @@
+import Navbar from "./Navbar.js";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
-import Navbar from "./Navbar.js";
 import PropTypes from "prop-types";
 import NProgress from "nprogress";
 import nProgress from "nprogress";
