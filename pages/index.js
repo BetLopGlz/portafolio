@@ -108,7 +108,7 @@ const Index = ()=>(
                         className="btn btn-light"
                       >
                       Ir al Proyecto  
-                      <span class="bi bi-arrow-right-square"></span>
+                      <span className="bi bi-arrow-right-square"></span>
                       </a>
                       
                     </div>
