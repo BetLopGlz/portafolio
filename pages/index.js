@@ -1,5 +1,5 @@
-import LayOut from "../components/Layout";
-import { skills, experiences, projects} from "../profile";
+import LayOut from "../components/Layout.js";
+import { skills, experiences, projects} from "../profile.js";
 import Image from 'next/image';
 
 const Index = ()=>(

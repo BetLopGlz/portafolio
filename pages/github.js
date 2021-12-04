@@ -1,5 +1,5 @@
-import Layout from "../components/Layout";
-import Error from "./_error";
+import Layout from "../components/Layout.js";
+import Error from "./_error.js";
 import Image from "next/image";
 
 const GitHub = ({user, statusCode})=>{
