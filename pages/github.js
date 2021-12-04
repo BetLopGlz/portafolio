@@ -1,5 +1,7 @@
 import Layout from "../components/Layout";
 import Error from "./_error";
+import Image from "next/image";
+
 const GitHub = ({user, statusCode})=>{
     if (statusCode) {
         return <Error statusCode={statusCode} />;
@@ -10,12 +12,12 @@ const GitHub = ({user, statusCode})=>{
           <div className="col-md-4 offset-md-4">
             <div className="card card-body text-center">
               <h1>{user.name}</h1>
-              <img src={user.avatar_url} alt="" style={{ width: "100%" }} />
+              <Image src="/avatar-git.jpg" alt="" width={300}  height={300}  />
               <p>{user.bio}</p>
               
               <a
                 href={user.html_url}
-                target="_blank"
+                
                 className="btn btn-light"
               >
                 Ir a Github
@@ -32,7 +34,7 @@ export async function getServerSideProps() {
       "https://api.github.com/users/BetLopGlz"
     );
     const data = await res.json();
-    console.log(data);
+    
     const statusCode = res.status > 200 ? res.status : false;
   
     return {

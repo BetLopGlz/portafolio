@@ -6,6 +6,7 @@ import NProgress from "nprogress";
 import nProgress from "nprogress";
 import classNames from "classnames";
 
+
 const Layout = ({ children, title, footer = true, dark = false }) => {
   const router = useRouter();
 
@@ -24,7 +25,7 @@ const Layout = ({ children, title, footer = true, dark = false }) => {
     return () => {
       router.events.off("routeChangeStart", handleRouteChange);
     };
-  }, []);
+  });
 
   return (
     <div className={classNames({ "bg-dark": dark, "bg-light": !dark })}>
